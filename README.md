@@ -3,17 +3,30 @@ Connects to a K8s cluster, Displays Pods, Containers of a Pod and events in the 
 ## Requirements
 Linux/Mac Operating System
 The scripts are written for bash shell.
-Install pip for python package. To see how to install pip, see Here.
+Install python
+Install pip for python package.
+Have a running Kubernetes cluster
 
 ## Prepare the Virtual Environemnt for python
 
 Clone the directoty.
 From the cloned directory, open the terminal and run the following commands in the terminal:
 ```
+cd k8s_in_python
 python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ```
+## Prepare the config file for connecting to the Kubernetes cluster
+Go into the config directory.
+Edit the path inside the config.json file with the full path to your kubeconfig file.
+Example for the content of the kubeconfig file:
+```
+{
+    "k8s_config":"/Users/mfarhadi/.kube/config"
+}
+```
+
 ## How to run the python code
 ```
 python main.py
