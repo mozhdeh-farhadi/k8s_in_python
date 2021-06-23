@@ -42,7 +42,7 @@ From the open terminal and within the created virtual environemnt, type the foll
 ```
 python main.py
 ```
-A list of options will be displayed, you can exit the program by typing :q.
+A list of options will be displayed, you can exit the program by typing ':q'.
 ### To get the list of Pods:
 Type in the terminal 1
 ### To get the list of containers of a Pod:
