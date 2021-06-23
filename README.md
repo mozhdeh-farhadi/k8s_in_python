@@ -6,31 +6,39 @@ Access to a running Kubernetes cluster.
 Python3 is installed on your machine.
 
 ### Notes
-The code is tested in Linux/Mac Operating Systems.
+The list of required packages are written in requirements.txt.
+
+The code is only tested in Linux and Mac Operating Systems.
 
 The scripts are written for bash shell.
 
 ## Prepare the Virtual Environemnt for python
 
 Clone the directoty.
-From the cloned directory, open the terminal and run the following commands in the terminal:
+Go inside the cloned directory, open the terminal and run the following commands in the terminal:
 ```
 cd k8s_in_python
 python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ```
+The above commands creates a virtual environemnt for the python code and installs the required packages from the requirements.txt.
+
 ## Prepare the config file for connecting to the Kubernetes cluster
-Go into the config directory.
-Edit the path inside the config.json file with the full path to your kubeconfig file.
-Example for the content of the kubeconfig file:
+Go inside the config directory and open the config.json file.
+
+Replace the path inside the config.json file with the full path to your kubeconfig file.
+Example of the content of the kubeconfig file:
 ```
 {
     "k8s_config":"/Users/mfarhadi/.kube/config"
 }
 ```
+Now everything is ready, you can run the code.
 
 ## How to run the python code
+
+From the open terminal and within the virtual environemnt, type the following command:
 ```
 python main.py
 ```
