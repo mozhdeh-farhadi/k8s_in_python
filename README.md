@@ -6,7 +6,7 @@ Access to a running Kubernetes cluster.
 Python3 is installed on your machine.
 
 ### Notes
-The list of required packages are written in requirements.txt.
+The list of required packages are written in `requirements.txt`.
 
 The code is only tested in Linux and Mac Operating Systems.
 
@@ -22,13 +22,13 @@ python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ```
-The above commands create a virtual environemnt for the python code and installs the required packages from the requirements.txt.
+The above commands create a virtual environemnt for the python code and installs the required packages from the `requirements.txt`.
 
 ## Prepare the config file for connecting to the Kubernetes cluster
-Go inside the config directory and open the config.json file.
+Go inside the config directory and open the `config.json` file.
 
-Replace the path inside the config.json file with the full path to your kubeconfig file.
-Example of the content of the kubeconfig file:
+Replace the path inside the `config.json` file with the full path to your kubeconfig file.
+Example of the content of the `config.json` file:
 ```
 {
     "k8s_config":"/Users/mfarhadi/.kube/config"
@@ -44,11 +44,11 @@ python main.py
 ```
 A list of options will be displayed, you can exit the program by typing `:q`.
 ### To get the list of Pods:
-Type in the terminal 1
+Type in the terminal `1`
 ### To get the list of containers of a Pod:
-Type in the terminal 2
+Type in the terminal `2`
 ### To see the events in the cluster:
-Type in the terminal 3
+Type in the terminal `3`
 
 ## How to exit the code:
-Type in the terminal :q
+Type in the terminal `:q`
