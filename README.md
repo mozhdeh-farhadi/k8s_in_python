@@ -1,9 +1,13 @@
 # K8s_in_python
 Connects to a K8s cluster, Displays Pods, Containers of a Pod and events in the endpoints using Python.
 ## Requirements
-Have a running Kubernetes cluster.
-Install python.
+Access to a running Kubernetes cluster.
+
+Python3 is installed on your machine.
+
+### Notes
 The code is tested in Linux/Mac Operating Systems.
+
 The scripts are written for bash shell.
 
 ## Prepare the Virtual Environemnt for python
