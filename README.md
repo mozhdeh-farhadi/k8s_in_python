@@ -22,7 +22,7 @@ python -m venv env
 source env/bin/activate
 pip install -r requirements.txt
 ```
-The above commands creates a virtual environemnt for the python code and installs the required packages from the requirements.txt.
+The above commands create a virtual environemnt for the python code and installs the required packages from the requirements.txt.
 
 ## Prepare the config file for connecting to the Kubernetes cluster
 Go inside the config directory and open the config.json file.
@@ -38,10 +38,11 @@ Now everything is ready, you can run the code.
 
 ## How to run the python code
 
-From the open terminal and within the virtual environemnt, type the following command:
+From the open terminal and within the created virtual environemnt, type the following command:
 ```
 python main.py
 ```
+A list of options will be displayed, you can exit the program by typing :q.
 ### To get the list of Pods:
 Type in the terminal 1
 ### To get the list of containers of a Pod:
