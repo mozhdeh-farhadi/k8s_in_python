@@ -44,11 +44,11 @@ python main.py
 ```
 A list of options will be displayed, you can exit the program by typing `:q`.
 ### To get the list of Pods:
-Type in the terminal `1`
+Type `1`
 ### To get the list of containers of a Pod:
-Type in the terminal `2`
+Type `2`
 ### To see the events in the cluster:
-Type in the terminal `3`
+Type `3`
 
 ## How to exit the code:
-Type in the terminal `:q`
+Type `:q`
